@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(212, 45%, 89%);
+    text-decoration: none;
+}
+
+.main-block {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 250px;
+    margin-left: 770px;
+    width: 300px;
+    height: 480px;
+    background-color: #fff;
+    border-radius: 5%;
+}
+
+.main-block .qr-code {
+    background-color: #fff;
+}
+
+.main-block .qr-code img {
+    width: 270px;
+    height: 270px;
+    padding-top: 15px;
+    border-radius: 10%;
+    background-color: #fff;
+}
+
+.main-block .text {
+    padding-top: 20px;
+    background-color: #fff;
+}
+
+.main-block .text .title {
+    font-size: 22px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    background-color: #fff;
+}
+
+.main-block .text .sub-title {
+    padding-top: 20px;
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    background-color: #fff;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-left: -60px;
+    margin-top: 300px;
+    font-family: 'Outfit', sans-serif;
+    font-size: larger;
+}
+
+.footer .challenge {
+    padding-right: 100px;
+}
+
+.footer .challenge a,
+.footer .coded-by a {
+    color: hsl(218, 44%, 22%);
+}
